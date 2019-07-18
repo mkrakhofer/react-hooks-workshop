@@ -1,0 +1,42 @@
+html {
+  background-color: black;
+}
+
+.App {
+  color: gainsboro;
+
+  div {
+    margin: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    border: solid white 3px;
+  }
+
+  input {
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 16px;
+    box-shadow: none;
+    border: none;
+    padding-left: 16px;
+  }
+
+  .sponge {
+    font-style: italic;
+    font-size: 20px;
+    font-family: fantasy;
+    background: #fff56c;
+    color: #0457A0;
+    border: none;
+  }
+  
+  .star {
+    font-style: bold;
+    font-size: 20px;
+    font-family: monospace;
+    background: #f28da5;
+    color: #0457A0;
+    border: none;
+  }
+}
